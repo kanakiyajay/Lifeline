@@ -1,0 +1,1162 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"the",
+				"theHtml"
+			],
+			[
+				"th",
+				"theHtml"
+			],
+			[
+				"ta",
+				"tabinfo"
+			],
+			[
+				"to",
+				"totalVisits"
+			],
+			[
+				"fo",
+				"for	for (…) {…}"
+			],
+			[
+				"visi",
+				"visitItem"
+			],
+			[
+				"for",
+				"forAUrl"
+			],
+			[
+				"vis",
+				"visitItem"
+			],
+			[
+				"V",
+				"VisitItem"
+			],
+			[
+				"time",
+				"timeDiff"
+			],
+			[
+				"tha",
+				"thatHost"
+			],
+			[
+				"all",
+				"allTheUrls"
+			],
+			[
+				"hos",
+				"host"
+			],
+			[
+				"that",
+				"thatHost"
+			],
+			[
+				"ur",
+				"uri"
+			],
+			[
+				"host",
+				"host"
+			],
+			[
+				"tot",
+				"totalVisits"
+			],
+			[
+				"this",
+				"thisHost"
+			],
+			[
+				"Visi",
+				"Visit"
+			],
+			[
+				"is",
+				"isItCalled"
+			],
+			[
+				"hostU",
+				"hostUrl"
+			],
+			[
+				"tim",
+				"timeOnThatSite"
+			],
+			[
+				"ti",
+				"timeDiv"
+			],
+			[
+				"Mos",
+				"MostVisitedURL"
+			],
+			[
+				"Mo",
+				"MostVisitedURL"
+			],
+			[
+				"item",
+				"items"
+			],
+			[
+				"url",
+				"urlToCount"
+			],
+			[
+				"his",
+				"historyItems"
+			],
+			[
+				"p",
+				"php"
+			],
+			[
+				"e",
+				"element"
+			],
+			[
+				"dr",
+				"draggable"
+			],
+			[
+				"drag",
+				"draggable"
+			],
+			[
+				"add",
+				"addimage"
+			],
+			[
+				"image",
+				"imageupload"
+			],
+			[
+				"drop",
+				"dropfile"
+			],
+			[
+				"rea",
+				"realData"
+			],
+			[
+				"uplo",
+				"uploaded-files"
+			],
+			[
+				"up",
+				"uploaded-files"
+			],
+			[
+				"res",
+				"restartFiles"
+			],
+			[
+				"de",
+				"delete"
+			],
+			[
+				"file",
+				"file-list"
+			],
+			[
+				"windo",
+				"window"
+			],
+			[
+				"data",
+				"dataSplit"
+			],
+			[
+				"da",
+				"dataSplit"
+			],
+			[
+				"Up",
+				"Uploading"
+			],
+			[
+				"load",
+				"loading-content"
+			],
+			[
+				"lo",
+				"loading-color"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"dat",
+				"dataArray"
+			],
+			[
+				"fil",
+				"fileReader"
+			],
+			[
+				"File",
+				"fileReader"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"max",
+				"maxFiles"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"tht",
+				"thatslide"
+			],
+			[
+				"dif",
+				"diffx"
+			],
+			[
+				"over",
+				"overlay"
+			],
+			[
+				"slide",
+				"slide"
+			],
+			[
+				"o",
+				"overlay"
+			],
+			[
+				"pa",
+				"parent"
+			],
+			[
+				"hover",
+				"hovered"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"ad",
+				"addelement"
+			],
+			[
+				"ed",
+				"editInPlace"
+			],
+			[
+				"re",
+				"remove"
+			],
+			[
+				"inviews",
+				"inviewslide"
+			],
+			[
+				"sor",
+				"sortable"
+			],
+			[
+				"of",
+				"offsetleft"
+			],
+			[
+				"ui",
+				"ui-state-default"
+			],
+			[
+				"addt",
+				"addtoolbox"
+			],
+			[
+				"invi",
+				"inviewli"
+			],
+			[
+				"inv",
+				"inviewli"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"off",
+				"offset"
+			],
+			[
+				"top",
+				"top"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"option",
+				"options"
+			],
+			[
+				"size",
+				"sizey"
+			],
+			[
+				"wid",
+				"widthslider"
+			],
+			[
+				"edi",
+				"editable"
+			],
+			[
+				"fin",
+				"find"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"en",
+				"enable"
+			],
+			[
+				"ca",
+				"camera"
+			],
+			[
+				"righ",
+				"rightClick"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"lef",
+				"leftoffset"
+			],
+			[
+				"next",
+				"nextprev"
+			],
+			[
+				"ro",
+				"rotate"
+			],
+			[
+				"scale",
+				"scaleby"
+			],
+			[
+				"inview",
+				"inviewscale"
+			],
+			[
+				"scal",
+				"scaleby"
+			],
+			[
+				"sca",
+				"scaleby"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"roa",
+				"rotateby"
+			],
+			[
+				"tr",
+				"transition"
+			],
+			[
+				"sta",
+				"static"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"con",
+				"controlwrapper"
+			],
+			[
+				"diff",
+				"diffy"
+			],
+			[
+				"di",
+				"diffx"
+			],
+			[
+				"ch",
+				"changex"
+			],
+			[
+				"g",
+				"gcentery"
+			],
+			[
+				"co",
+				"coordinate"
+			],
+			[
+				"win",
+				"windowcentery"
+			],
+			[
+				"ge",
+				"gcentery"
+			],
+			[
+				"min",
+				"minx"
+			],
+			[
+				"offset",
+				"offsetx"
+			],
+			[
+				"t",
+				"transition"
+			],
+			[
+				"ste",
+				"step"
+			],
+			[
+				"ths",
+				"theslide"
+			],
+			[
+				"inn",
+				"innerWidth"
+			],
+			[
+				"wind",
+				"window"
+			],
+			[
+				"in",
+				"innerHeight"
+			],
+			[
+				"x",
+				"x"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"windowcen",
+				"windowcenterx"
+			],
+			[
+				"i",
+				"if	if"
+			],
+			[
+				"offs",
+				"offsetx"
+			],
+			[
+				"sc",
+				"scrollto"
+			],
+			[
+				"a",
+				"appendtext"
+			],
+			[
+				"fun",
+				"funimpress"
+			],
+			[
+				"te",
+				"text-indent"
+			],
+			[
+				"get",
+				"getScript"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"too",
+				"toolbox"
+			],
+			[
+				"bt",
+				"bottom"
+			],
+			[
+				"be",
+				"beforeselected"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "popup.js",
+			"settings":
+			{
+				"buffer_size": 537,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "manifest.json",
+			"settings":
+			{
+				"buffer_size": 720,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "popup.html",
+			"settings":
+			{
+				"buffer_size": 334,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "popup.css",
+			"settings":
+			{
+				"buffer_size": 36,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/User/C.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Discover Packages"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"d",
+				"Set Syntax: Diff"
+			],
+			[
+				"",
+				"Set Syntax: Graphviz (DOT)"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Function"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 656.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/H/offline-chrome-extension/inject.js",
+		"/H/offline-chrome-extension/timer/manifest.json",
+		"/H/offline-chrome-extension/timer/popup.js",
+		"/H/offline-chrome-extension/timer/page.js",
+		"/H/offline-chrome-extension/background.js",
+		"/C/Users/Kanakiya/AppData/Local/Temp/Temp1_make_page_red.zip/make_page_red/background.js",
+		"/C/Users/Kanakiya/AppData/Local/Temp/Temp1_make_page_red.zip/make_page_red/manifest.json",
+		"/H/offline-chrome-extension/stylizr/options.js",
+		"/H/Chrome-Extensions-examples/contentSettings/popup.js",
+		"/H/offline-chrome-extension/stylizr/popup.js",
+		"/H/offline-chrome-extension/popup.js",
+		"/H/Analytics-chrome-extension/inject.js",
+		"/C/Users/Kanakiya/Desktop/blank.html",
+		"/H/offline-chrome-extension/popup.html",
+		"/H/offline-chrome-extension/manifest.json",
+		"/H/offline-chrome-extension/extension.css",
+		"/H/Chrome-Extensions-examples/make_page_red/manifest.json",
+		"/H/offline-chrome-extension/popup.css",
+		"/H/Analytics-chrome-extension/manifest.json",
+		"/H/offline-chrome-extension",
+		"/H/index.html",
+		"/H/Near-field-communication/info.txt",
+		"/C/Users/Kanakiya/Downloads/videocacheview-x64/readme.txt",
+		"/H/Analytics-chrome-extension/analytics.js",
+		"/H/node/nodetube/node_modules/jsdom/status.json",
+		"/H/Chrome-Extensions-examples/stylizr/options.js",
+		"/H/Chrome-Extensions-examples/stylizr/popup.js",
+		"/H/Chrome-Extensions-examples/showHistory/typedUrls.js",
+		"/H/Analytics-chrome-extension/background.html",
+		"/H/Chrome-Extensions-examples/gildas-lormeau-SingleFile-d154e92/WebContent/core/scripts/bg/nio.js",
+		"/H/Chrome-Extensions-examples/gildas-lormeau-SingleFile-d154e92/WebContent/core/scripts/bg/wininfo.js",
+		"/H/Chrome-Extensions-examples/gildas-lormeau-SingleFile-d154e92/WebContent/core/manifest.json",
+		"/H/Chrome-Extensions-examples/gildas-lormeau-SingleFile-d154e92/WebContent/core/scripts/bg/bgcore.js",
+		"/H/Chrome-Extensions-examples/gildas-lormeau-SingleFile-d154e92/WebContent/COPYING",
+		"/H/Chrome-Extensions-examples/gildas-lormeau-SingleFile-d154e92/README",
+		"/H/Analytics-chrome-extension/popup.html",
+		"/H/chrome-extension/README.md",
+		"/H/Chrome-Extensions-examples/medialize-URI.js-v1.7.2-0-g1f6d64b/medialize-URI.js-1f6d64b/src/IPv6.js",
+		"/H/Chrome-Extensions-examples/showHistory/typedUrls.html",
+		"/H/chrome-extension/manifest.json",
+		"/H/Chrome-Extensions-examples/showHistory/manifest.json",
+		"/H/chrome-extension/content_script.js",
+		"/H/chrome-extension/popup.js",
+		"/H/chrome-extension/jquery.min.js",
+		"/H/Chrome-Extensions-examples/basic/sample.js",
+		"/H/chrome-extension/inject.js",
+		"/H/Chrome-Extensions-examples/make_page_red/background.js",
+		"/H/Chrome-Extensions-examples/set_page_color/popup.html",
+		"/H/chrome-extension/popup.html",
+		"/H/chrome-extension/background.js",
+		"/H/Chrome-Extensions-examples/set_page_color/popup.js",
+		"/H/Chrome-Extensions-examples/set_page_color/manifest.json",
+		"/H/chrome-extension/extension.sublime-project",
+		"/H/chrome-extension/speakGenerator.js",
+		"/H/chrome-extension/speakWorker.js",
+		"/H/chrome-extension/speakClient.js",
+		"/H/helloworld.js",
+		"/H/node/web-server.js",
+		"/H/node/tcp-server.js",
+		"/H/jQuer.in/link.txt",
+		"/C/Users/Kanakiya/Downloads/javascript.js",
+		"/C/Users/Kanakiya/Downloads/style.css",
+		"/H/presentrr/js/jquery-ui-1.8.23.custom.min.js",
+		"/H/jQuer.in/header.php",
+		"/H/presentrr/index.html",
+		"/H/presentrr/css/style.css",
+		"/H/presentrr/mobile-generator.js",
+		"/H/presentrr/mobile-sample.htm",
+		"/H/presentrr/impress-generator.js",
+		"/H/presentrr/editslide.css",
+		"/H/presentrr/editslide.html",
+		"/H/jQuer.in/link",
+		"/H/presentrr/bergie-hallo-1799b66/examples/test.html",
+		"/H/presentrr/bergie-hallo-1799b66/examples/image.css",
+		"/H/presentrr/bergie-hallo-1799b66/examples/test-annotate.html",
+		"/H/presentrr/js/jquery.gridster.js",
+		"/H/presentrr/style.css",
+		"/H/presentrr/ducksboard-gridster.js-3ba70b7/src/jquery.gridster.js",
+		"/H/presentrr/hsivaramx-Impressionist-b7d889b/app.html",
+		"/H/presentrr/edislide.css",
+		"/H/presentrr/hsivaramx-Impressionist-b7d889b/scripts/main.js",
+		"/H/presentrr/willemmulder-Presenteer.js-4f83a56/js/presenteer.js",
+		"/H/jQuer.in/Dynatree is a dynamic JavaScript tree view control",
+		"/H/presentrr/willemmulder-Presenteer.js-4f83a56/index.html",
+		"/H/presentrr/hsivaramx-Impressionist-b7d889b/README",
+		"/H/presentrr/willemmulder-Presenteer.js-4f83a56/readme.md",
+		"/H/presentrr/js/jquery.jangle.js",
+		"/H/presentrr/js/jquery.ui.draggable.js",
+		"/H/presentrr/js/patch_draggable.js",
+		"/H/presentrr/js/jquery-ui.min.js",
+		"/H/jq",
+		"/H/presentrr/test.html",
+		"/H/jQuerin-grid-builder/builderfull.html",
+		"/H/presentrr/js/impress.js",
+		"/H/Gridly-theme/header.php",
+		"/H/Gridly-theme/css/light.css",
+		"/H/Gridly-theme/single.php",
+		"/H/Gridly-theme/page.php",
+		"/H/Gridly-theme/functions.php",
+		"/H/Gridly-theme/index.php",
+		"/H/Gridly-theme/style.css",
+		"/H/presentrr/js/jmpress.js",
+		"/H/nathansmith-960-Grid-System-b0c5b98/code/css/960_12_col.css",
+		"/H/twitter-bootstrap-857b8fb/package.json",
+		"/H/bootstrap/css/bootstrap.css",
+		"/H/presentrr/js/aterrien-jQuery-Knob-0a883f3/index.html",
+		"/H/presentrr/js/aterrien-jQuery-Knob-0a883f3/js/jquery.knob.js",
+		"/H/presentrr/js/jangle.js",
+		"/H/Ebooks/builder.html",
+		"/H/jQuerin-grid-builder/builder.html",
+		"/C/Users/Kanakiya/AppData/Roaming/Sublime Text 2/Packages/User/console.sublime-snippet",
+		"/H/jQuerin-grid-builder/readme.md",
+		"/H/jQuerin-grid-builder/builder/index.html",
+		"/H/jQuerin-grid-builder/builder/builder.css",
+		"/H/jQuerin-grid-builder/buildertest.html",
+		"/H/jQuerin-grid-builder/builder/jquery.aSimpleTour.js",
+		"/H/imp-info/tosend.txt",
+		"/H/style.css",
+		"/H/test.html",
+		"/H/imp-info/Pan.txt",
+		"/H/imp-info/jquery.in.txt",
+		"/C/Users/Kanakiya/Downloads/builder.css",
+		"/C/Users/Kanakiya/Downloads/builderfull.css",
+		"/C/Users/Kanakiya/Downloads/builderfull.html",
+		"/H/GridBuilder/GridBuilder/builderfull.html",
+		"/H/GridBuilder/GridBuilder/builder/builder.css",
+		"/H/cloudmine.js",
+		"/H/GridBuilder/GridBuilder/builder/scroll.css"
+	],
+	"find":
+	{
+		"height": 58.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"<strong>",
+			"WideText",
+			"Jarallax javascript library",
+			"Autotab",
+			"Tappable javascript",
+			"Sequence-js jQuery",
+			"VisualSearch",
+			"Animated Emoticons",
+			"Diva-js | AJAX",
+			"getV",
+			"/*",
+			"Diva-js | AJAX",
+			"round",
+			"// ",
+			"Fresco lightbox",
+			"Responsive Measures | typography jquery plugin",
+			"Y",
+			"type",
+			"Rslider",
+			"Diva-js | AJAX jQuery plugin",
+			"url",
+			"urlToCount",
+			"Virtual Piano Chords",
+			"Diva-js | AJAX",
+			"host",
+			"$(this)",
+			"Prefix-free",
+			"Bonsai-js",
+			"GuessLanguage",
+			"Vintage",
+			"Add a vintage effect to images",
+			"Adapt-js",
+			"Pagify",
+			"Diva",
+			"url",
+			"({\n",
+			"processVisits",
+			"|",
+			"Diva-js | AJAX jQuery plugin",
+			"chrome.history",
+			"buildTypedUrlList",
+			"Diva-js | AJAX",
+			"transition",
+			"dragit",
+			"pep",
+			"editable",
+			"<div class=\"options\"></div>",
+			"sortable",
+			"sortableul",
+			"ul",
+			"sortable",
+			"addtoolbox",
+			"<button class=\"add\">+Add</button>",
+			"Shifty-js",
+			"hovered",
+			"drop-files",
+			"Live-Twitter",
+			"Powertip",
+			"20",
+			"hide",
+			"dooverlay",
+			"overlay",
+			"addslide",
+			"drag",
+			"<div class=\"drag\"></div>",
+			"step",
+			"overflow",
+			"dragit",
+			"drag",
+			"addslide",
+			"facebook.com",
+			"sort",
+			"sortable",
+			"addslide",
+			"url",
+			"editable",
+			"addtitle",
+			"blue",
+			"display",
+			"addtoolbox",
+			"addtitle",
+			"addh1",
+			"controlwrapper",
+			"ontrolwrapper",
+			"controlwrapper",
+			"li",
+			"increase",
+			";\n",
+			"offsettop",
+			"offsetleft",
+			"sortableli",
+			"right",
+			"sort",
+			"rotate",
+			".rotate",
+			"rotate",
+			"grid",
+			"<div class=\"gridster\">\n			        <ul>\n			            <li data-row=\"1\" data-col=\"1\" data-sizex=\"5\" data-sizey=\"1\">\n			                <h1 class=\"editable\">Double Click To Add Heading</h1>\n			            </li>\n			            <li data-row=\"2\" data-col=\"1\" data-sizex=\"5\" data-sizey=\"2\">\n			                <h3 class=\"editable\">Double Click To Text</h3>\n			            </li>\n			        </ul>\n			    </div>",
+			"gridster",
+			"data-sizex",
+			"halfbutton",
+			"half",
+			"2",
+			"data-sizex",
+			"<",
+			"hallo",
+			"addslide",
+			"hallo",
+			"blue",
+			"onsole",
+			"maxnumber",
+			"next",
+			"button",
+			"slidetoolbox",
+			"rotate",
+			"refresh",
+			"stepwra",
+			"gridster",
+			"5",
+			"$element",
+			"camera",
+			"document",
+			"rotate",
+			"refresh",
+			"slide",
+			"step",
+			"universalid",
+			"click"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"jaykanakiya.co.cc",
+			"&lt;",
+			"",
+			"p",
+			"self",
+			"\"number\":null,",
+			"mobile\":null,",
+			"number\":null,",
+			"email",
+			"head_relation",
+			"dob",
+			"srno",
+			"left",
+			"windowsdiv",
+			"windows",
+			"inviewleft",
+			"",
+			"windows",
+			"</div>",
+			"<div>",
+			"\"></div></li>",
+			"<li><div><img",
+			"top:300",
+			"left:225",
+			"",
+			"225",
+			"300",
+			".png\" width=\"300\" height=\"225\"",
+			".png",
+			"/sliding/slide",
+			"slide",
+			".jpg",
+			"slide_caption",
+			"slide",
+			" ",
+			",250,",
+			"$(this).data('k',temp);",
+			"nav",
+			"Kapol",
+			"kapol",
+			"kapols",
+			"inserts",
+			"",
+			"<td class=\"\">",
+			"page",
+			"000webhost",
+			"+changex,y",
+			"jpg",
+			"posy",
+			"posx",
+			"selecrBrick",
+			"bricks",
+			"ctx",
+			"mosaic-backdrop",
+			"h5",
+			"h4"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "popup.js",
+					"settings":
+					{
+						"buffer_size": 537,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								264,
+								264
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "manifest.json",
+					"settings":
+					{
+						"buffer_size": 720,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								260,
+								260
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "popup.html",
+					"settings":
+					{
+						"buffer_size": 334,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								107,
+								107
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "popup.css",
+					"settings":
+					{
+						"buffer_size": 36,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								34,
+								34
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.exec":
+	{
+		"height": 148.0
+	},
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/H/node/nodetube/nodetube.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 198.0,
+	"status_bar_visible": true
+}
