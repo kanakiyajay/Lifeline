@@ -1,17 +1,19 @@
-//** Content script doesnt work Offline **
-//First Find Out whether the user is Offline.
-//yes! the inject script is working
+//** Content script doesnt work Offline ** , therefor use content Script
 console.log('Inject Script Working');
 var storage = chrome.storage.local;
 //If Online then Store it
 
-var k = $('body').html().toString();
+var theText = $('body').html().toString();
 //Also store in chrome storage
- storage.set({'thetext': k}, function() {
-    // Notify that we saved.
+var storageObject = {}
+var url = window.location.href;//get the url of the page
 
+storageObject[url]=theText;//Mapping
+
+ storage.set(storageObject, function() {
+    // Notify that we saved.
+    console.log('saved the page');
   });
-storage.get('thetext', function(items) {
-  
-  console.log(items);
+storage.get(url, function(items) {  
+  console.log(items);//Check whether stored
 });

@@ -4,8 +4,36 @@
 		"selected_items":
 		[
 			[
+				"ite",
+				"items2"
+			],
+			[
+				"tab",
+				"tabArray"
+			],
+			[
+				"quer",
+				"queryobject"
+			],
+			[
+				"t",
+				"true"
+			],
+			[
+				"sto",
+				"storageObject"
+			],
+			[
 				"the",
-				"theHtml"
+				"thetext"
+			],
+			[
+				"ch",
+				"changeInfo"
+			],
+			[
+				"update",
+				"updateProperties"
 			],
 			[
 				"th",
@@ -408,10 +436,6 @@
 				"diffx"
 			],
 			[
-				"ch",
-				"changex"
-			],
-			[
 				"g",
 				"gcentery"
 			],
@@ -434,10 +458,6 @@
 			[
 				"offset",
 				"offsetx"
-			],
-			[
-				"t",
-				"transition"
 			],
 			[
 				"ste",
@@ -494,67 +514,35 @@
 			[
 				"te",
 				"text-indent"
-			],
-			[
-				"get",
-				"getScript"
-			],
-			[
-				"paddin",
-				"padding-left"
-			],
-			[
-				"too",
-				"toolbox"
-			],
-			[
-				"bt",
-				"bottom"
-			],
-			[
-				"be",
-				"beforeselected"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
+			"contents": "//** Content script doesnt work Offline ** , therefor use content Script\nconsole.log('Inject Script Working');\nvar storage = chrome.storage.local;\n//If Online then Store it\n\nvar theText = $('body').html().toString();\n//Also store in chrome storage\nvar storageObject = {}\nvar url = window.location.href;//get the url of the page\n\n\nstorageObject[url]=theText;//Mapping\n\n storage.set(storageObject, function() {\n    // Notify that we saved.\n    console.log('saved the page');\n  });\nstorage.get(url, function(items) {  \n  console.log(items);//Check whether stored\n});\n",
+			"file": "inject.js",
+			"file_size": 582,
+			"file_write_time": 129963343487579692,
+			"settings":
+			{
+				"buffer_size": 564,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "popup.js",
 			"settings":
 			{
-				"buffer_size": 537,
+				"buffer_size": 928,
 				"line_ending": "Windows"
 			}
 		},
 		{
+			"file": "redirect.js",
 			"settings":
 			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "manifest.json",
-			"settings":
-			{
-				"buffer_size": 720,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "popup.html",
-			"settings":
-			{
-				"buffer_size": 334,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "popup.css",
-			"settings":
-			{
-				"buffer_size": 36,
+				"buffer_size": 285,
 				"line_ending": "Windows"
 			}
 		}
@@ -562,9 +550,21 @@
 	"build_system": "Packages/User/C.sublime-build",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 81.0,
 		"selected_items":
 		[
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
 			[
 				"ins",
 				"Package Control: Install Package"
@@ -590,7 +590,7 @@
 				"Snippet: Function"
 			]
 		],
-		"width": 512.0
+		"width": 400.0
 	},
 	"console":
 	{
@@ -607,30 +607,35 @@
 	},
 	"file_history":
 	[
+		"/H/Analytics-chrome-extension/analytics.js",
+		"/C/Users/Kanakiya/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/H/offline-chrome-extension/inject.js",
+		"/H/offline-chrome-extension/redirect.html",
+		"/H/offline-chrome-extension/manifest.json",
+		"/H/offline-chrome-extension/popup.js",
+		"/H/offline-chrome-extension/redirect.js",
+		"/H/offline-chrome-extension/background.js",
+		"/C/Users/Kanakiya/Downloads/basic/manifest.json",
+		"/C/Users/Kanakiya/Downloads/basic/navigation_collector.js",
+		"/H/offline-chrome-extension/popup.html",
+		"/H/offline-chrome-extension/popup.css",
 		"/H/offline-chrome-extension/timer/manifest.json",
 		"/H/offline-chrome-extension/timer/popup.js",
 		"/H/offline-chrome-extension/timer/page.js",
-		"/H/offline-chrome-extension/background.js",
 		"/C/Users/Kanakiya/AppData/Local/Temp/Temp1_make_page_red.zip/make_page_red/background.js",
 		"/C/Users/Kanakiya/AppData/Local/Temp/Temp1_make_page_red.zip/make_page_red/manifest.json",
 		"/H/offline-chrome-extension/stylizr/options.js",
 		"/H/Chrome-Extensions-examples/contentSettings/popup.js",
 		"/H/offline-chrome-extension/stylizr/popup.js",
-		"/H/offline-chrome-extension/popup.js",
 		"/H/Analytics-chrome-extension/inject.js",
 		"/C/Users/Kanakiya/Desktop/blank.html",
-		"/H/offline-chrome-extension/popup.html",
-		"/H/offline-chrome-extension/manifest.json",
 		"/H/offline-chrome-extension/extension.css",
 		"/H/Chrome-Extensions-examples/make_page_red/manifest.json",
-		"/H/offline-chrome-extension/popup.css",
 		"/H/Analytics-chrome-extension/manifest.json",
 		"/H/offline-chrome-extension",
 		"/H/index.html",
 		"/H/Near-field-communication/info.txt",
 		"/C/Users/Kanakiya/Downloads/videocacheview-x64/readme.txt",
-		"/H/Analytics-chrome-extension/analytics.js",
 		"/H/node/nodetube/node_modules/jsdom/status.json",
 		"/H/Chrome-Extensions-examples/stylizr/options.js",
 		"/H/Chrome-Extensions-examples/stylizr/popup.js",
@@ -729,12 +734,7 @@
 		"/H/imp-info/Pan.txt",
 		"/H/imp-info/jquery.in.txt",
 		"/C/Users/Kanakiya/Downloads/builder.css",
-		"/C/Users/Kanakiya/Downloads/builderfull.css",
-		"/C/Users/Kanakiya/Downloads/builderfull.html",
-		"/H/GridBuilder/GridBuilder/builderfull.html",
-		"/H/GridBuilder/GridBuilder/builder/builder.css",
-		"/H/cloudmine.js",
-		"/H/GridBuilder/GridBuilder/builder/scroll.css"
+		"/C/Users/Kanakiya/Downloads/builderfull.css"
 	],
 	"find":
 	{
@@ -953,30 +953,28 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "popup.js",
+					"file": "inject.js",
 					"settings":
 					{
-						"buffer_size": 537,
+						"buffer_size": 564,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								264,
-								264
+								20,
+								20
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -986,103 +984,51 @@
 				},
 				{
 					"buffer": 1,
+					"file": "popup.js",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 928,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								913,
+								913
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 435.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "manifest.json",
+					"file": "redirect.js",
 					"settings":
 					{
-						"buffer_size": 720,
+						"buffer_size": 285,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								260,
-								260
+								275,
+								275
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "popup.html",
-					"settings":
-					{
-						"buffer_size": 334,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								107,
-								107
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "popup.css",
-					"settings":
-					{
-						"buffer_size": 36,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								34,
-								34
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
