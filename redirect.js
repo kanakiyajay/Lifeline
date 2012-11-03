@@ -9,9 +9,6 @@ storage.get('toAccessPage', function(items) {
 		//console.log(content);
 		var theText = content.html;
 		var storeImgArray = content.img;
-		for (var i = 0; i < storeImgArray.length; i++) {
-			theText = theText +'<img src="'+storeImgArray[i]+'"></img>';
-		};
 		$('body').html(theText);
 	});
 });

@@ -1,37 +1,43 @@
-jQuery(document).ready(function  ($) {	
-	var url = window.location.href;//get the url of the page
-	var storage = chrome.storage.local;//Cache
-	console.log('Inject Script Working');
-	var storageObject = {};
-	//Store the html text
-                var imgArray = $('img');//get all the images in array
-                imgArray.each(function  (i) {
-                    var dataImage = getBase64Image($(this),$(this).attr('src'));//f(Replace with base 64 index)
-                    $(this).attr('src',dataImage);
-                })
-	var theText = $('body').html().toString();
-	//Also store in chrome storage
-	storageObject[url]=theText;
+jQuery(document).ready(function  ($) {  
+    var url = window.location.href;//get the url of the page
+    var storage = chrome.storage.local;//Cache
+    console.log('Inject Script Working');
+    var storageObject = {};
+    //Store the html text
+    var imgArray = $('img');//get all the images in array
+                              var storeImgArray = []; 
+                                for (var i = 0; i < imgArray.length; i++) {
+                        //if () {}; //If image is from another domain
+                                    var dataUrl = getBase64Image(imgArray[i],i);//Get the base64 string of the image
+                                    $(imgArray[i]).attr('src',dataUrl);
+                                    console.log($(imgArray[i]));
+                                };
+    //Also store in chrome storage
+    var theText = $('body').html().toString();
+    var itemStorage = {
+                'html' : theText,
+                'img' : storeImgArray
+            };
 
-	 storage.set(storageObject, function() {
-	    // Notify that we saved.
-	    console.log('saved the page');
-	  });
-	storage.get(url, function(items) {  
-	  console.log(items);//Check whether stored
-	});
-            function getBase64Image(img,src) {
+    storageObject[url]=JSON.stringify(itemStorage);;//Mapping
+
+     storage.set(storageObject, function() {
+        // Notify that we saved.
+        console.log('saved the page');
+      });
+    storage.get(url, function(items) {  
+      console.log(items);//Check whether stored
+    });
+            function getBase64Image(img,number) {
                 // Create an empty canvas element
                 var canvas = document.createElement("canvas");
                 canvas.width = img.width;
                 canvas.height = img.height;
-                console.log(img[0]);
+                console.log(canvas);
 
                 // Copy the image contents to the canvas
                 var ctx = canvas.getContext("2d");
-                var image = Image.new();
-                image.src = src;
-                ctx.drawImage(image, 0, 0);
+                ctx.drawImage(img, 0, 0);
 
 
                 // Get the data-URL formatted image
@@ -41,11 +47,15 @@ jQuery(document).ready(function  ($) {
 
                 //To avoid cross-domain errors
                 try{
-                	dataURL = canvas.toDataURL("image/png");
+                    storeImgArray[i] = canvas.toDataURL("image/png");
                 } catch (error){
-                	console.log(error);
+                    console.log(error);
                 }
                 $('canvas').remove();
-                return dataURL.replace(/^data:image\/(png|jpg);base64,/, "");
+                try{
+                    return storeImgArray[i];//.replace(/^data:image\/(png|jpg);base64,/, "");
+                }catch(error){
+                    console.log(error);
+                }
             }
 });
