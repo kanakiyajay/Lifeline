@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"sto",
+				"storeImgArray"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"the",
+				"theText"
+			],
+			[
+				"item",
+				"itemStorage"
+			],
+			[
+				"st",
+				"storageObject"
+			],
+			[
+				"img",
+				"imgArray"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"data",
+				"dataURL"
+			],
+			[
+				"da",
+				"dataURL"
+			],
+			[
+				"get",
+				"getBase64Image"
+			],
+			[
 				"ite",
 				"items2"
 			],
@@ -18,14 +58,6 @@
 			[
 				"t",
 				"true"
-			],
-			[
-				"sto",
-				"storageObject"
-			],
-			[
-				"the",
-				"thetext"
 			],
 			[
 				"ch",
@@ -54,10 +86,6 @@
 			[
 				"visi",
 				"visitItem"
-			],
-			[
-				"for",
-				"forAUrl"
 			],
 			[
 				"vis",
@@ -132,10 +160,6 @@
 				"MostVisitedURL"
 			],
 			[
-				"item",
-				"items"
-			],
-			[
 				"url",
 				"urlToCount"
 			],
@@ -198,14 +222,6 @@
 			[
 				"windo",
 				"window"
-			],
-			[
-				"data",
-				"dataSplit"
-			],
-			[
-				"da",
-				"dataSplit"
 			],
 			[
 				"Up",
@@ -424,10 +440,6 @@
 				"border"
 			],
 			[
-				"con",
-				"controlwrapper"
-			],
-			[
 				"diff",
 				"diffy"
 			],
@@ -502,31 +514,32 @@
 			[
 				"sc",
 				"scrollto"
-			],
-			[
-				"a",
-				"appendtext"
-			],
-			[
-				"fun",
-				"funimpress"
-			],
-			[
-				"te",
-				"text-indent"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"contents": "//** Content script doesnt work Offline ** , therefor use content Script\nconsole.log('Inject Script Working');\nvar storage = chrome.storage.local;\n//If Online then Store it\n\nvar theText = $('body').html().toString();\n//Also store in chrome storage\nvar storageObject = {}\nvar url = window.location.href;//get the url of the page\n\n\nstorageObject[url]=theText;//Mapping\n\n storage.set(storageObject, function() {\n    // Notify that we saved.\n    console.log('saved the page');\n  });\nstorage.get(url, function(items) {  \n  console.log(items);//Check whether stored\n});\n",
-			"file": "inject.js",
-			"file_size": 582,
-			"file_write_time": 129963343487579692,
+			"file": "manifest.json",
 			"settings":
 			{
-				"buffer_size": 564,
+				"buffer_size": 800,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "inject.js",
+			"settings":
+			{
+				"buffer_size": 2174,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "redirect.js",
+			"settings":
+			{
+				"buffer_size": 529,
 				"line_ending": "Windows"
 			}
 		},
@@ -539,10 +552,10 @@
 			}
 		},
 		{
-			"file": "redirect.js",
+			"file": "/H/Analytics-chrome-extension/analytics.js",
 			"settings":
 			{
-				"buffer_size": 285,
+				"buffer_size": 4364,
 				"line_ending": "Windows"
 			}
 		}
@@ -607,6 +620,9 @@
 	},
 	"file_history":
 	[
+		"/H/xampp/htdocs/xampp/projects/builder/test.html",
+		"/C/Users/Kanakiya/Desktop/blank.html",
+		"/H/offline-chrome-extension/test.html",
 		"/H/Analytics-chrome-extension/analytics.js",
 		"/C/Users/Kanakiya/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/H/offline-chrome-extension/inject.js",
@@ -628,7 +644,6 @@
 		"/H/Chrome-Extensions-examples/contentSettings/popup.js",
 		"/H/offline-chrome-extension/stylizr/popup.js",
 		"/H/Analytics-chrome-extension/inject.js",
-		"/C/Users/Kanakiya/Desktop/blank.html",
 		"/H/offline-chrome-extension/extension.css",
 		"/H/Chrome-Extensions-examples/make_page_red/manifest.json",
 		"/H/Analytics-chrome-extension/manifest.json",
@@ -732,9 +747,7 @@
 		"/H/style.css",
 		"/H/test.html",
 		"/H/imp-info/Pan.txt",
-		"/H/imp-info/jquery.in.txt",
-		"/C/Users/Kanakiya/Downloads/builder.css",
-		"/C/Users/Kanakiya/Downloads/builderfull.css"
+		"/H/imp-info/jquery.in.txt"
 	],
 	"find":
 	{
@@ -752,6 +765,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"impressR",
+			"Autotab",
 			"<strong>",
 			"WideText",
 			"Jarallax javascript library",
@@ -877,9 +892,7 @@
 			"rotate",
 			"refresh",
 			"slide",
-			"step",
-			"universalid",
-			"click"
+			"step"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -958,18 +971,46 @@
 			[
 				{
 					"buffer": 0,
-					"file": "inject.js",
+					"file": "manifest.json",
 					"settings":
 					{
-						"buffer_size": 564,
+						"buffer_size": 800,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								20,
-								20
+								472,
+								472
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "inject.js",
+					"settings":
+					{
+						"buffer_size": 2174,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1900,
+								1913
 							]
 						],
 						"settings":
@@ -977,13 +1018,39 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1059.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 2,
+					"file": "redirect.js",
+					"settings":
+					{
+						"buffer_size": 529,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								492,
+								492
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 9.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "popup.js",
 					"settings":
 					{
@@ -1011,27 +1078,28 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "redirect.js",
+					"buffer": 4,
+					"file": "/H/Analytics-chrome-extension/analytics.js",
 					"settings":
 					{
-						"buffer_size": 285,
+						"buffer_size": 4364,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								275,
-								275
+								1821,
+								1863
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1530.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
