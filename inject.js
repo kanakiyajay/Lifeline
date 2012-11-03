@@ -1,39 +1,65 @@
 jQuery(document).ready(function  ($) {  
     var url = window.location.href;//get the url of the page
     var storage = chrome.storage.local;//Cache
-    console.log('Inject Script Working');
+    //console.log('Inject Script Working');
     var storageObject = {};
     //Store the html text
+    var styleSheet ;
+    var deffered = $.Deferred();
     var imgArray = $('img');//get all the images in array
-                              var storeImgArray = []; 
-                                for (var i = 0; i < imgArray.length; i++) {
-                        //if () {}; //If image is from another domain
-                                    var dataUrl = getBase64Image(imgArray[i],i);//Get the base64 string of the image
-                                    $(imgArray[i]).attr('src',dataUrl);
-                                    console.log($(imgArray[i]));
-                                };
+     var storeImgArray = []; 
+        for (var i = 0; i < imgArray.length; i++) {
+//if () {}; //If image is from another domain
+            var dataUrl = getBase64Image(imgArray[i],i);//Get the base64 string of the image
+            $(imgArray[i]).attr('src',dataUrl);
+            //console.log($(imgArray[i]));
+        };
     //Also store in chrome storage
     var theText = $('body').html().toString();
-    var itemStorage = {
-                'html' : theText,
-                'img' : storeImgArray
-            };
+    var stylesheetArray = $('link[rel="stylesheet"]');
+    var numberOfStyles = stylesheetArray.length;
+    var number = 0;
+        //Get all the styles in text
+        for (var i = 0; i < stylesheetArray.length; i++) {
 
-    storageObject[url]=JSON.stringify(itemStorage);;//Mapping
+            var href = $(stylesheetArray[i]).attr('href');
+            $.when($.get(href)).done(function(response) {
+                styleSheet = styleSheet + response.toString();
+                //$('<style />').text(response).appendTo($('head'));
+                //$('div').html(response);
+                number = number+1;
+                if (numberOfStyles===number) {
+                    console.log(styleSheet);
+                    deffered.resolve();
+                };
+            });
+        
+        };
 
-     storage.set(storageObject, function() {
-        // Notify that we saved.
-        console.log('saved the page');
+deffered.done(function  () {           
+
+      theText = '<style'+' type="text/css">'+styleSheet+'</style>'+theText;
+      var itemStorage = {
+                  'html' : theText,
+                  'img' : storeImgArray
+              };
+          
+      storageObject[url]=JSON.stringify(itemStorage);;//Mapping
+  
+       storage.set(storageObject, function() {
+          // Notify that we saved.
+          console.log('saved the page');
+        });
+      storage.get(url, function(items) {  
+        //console.log(items);//Check whether stored
       });
-    storage.get(url, function(items) {  
-      console.log(items);//Check whether stored
-    });
-            function getBase64Image(img,number) {
+});
+ function getBase64Image(img,number) {
                 // Create an empty canvas element
                 var canvas = document.createElement("canvas");
                 canvas.width = img.width;
                 canvas.height = img.height;
-                console.log(canvas);
+               // console.log(canvas);
 
                 // Copy the image contents to the canvas
                 var ctx = canvas.getContext("2d");
@@ -49,13 +75,13 @@ jQuery(document).ready(function  ($) {
                 try{
                     storeImgArray[i] = canvas.toDataURL("image/png");
                 } catch (error){
-                    console.log(error);
+                    //console.log(error);
                 }
                 $('canvas').remove();
                 try{
                     return storeImgArray[i];//.replace(/^data:image\/(png|jpg);base64,/, "");
                 }catch(error){
-                    console.log(error);
+                    //console.log(error);
                 }
             }
 });

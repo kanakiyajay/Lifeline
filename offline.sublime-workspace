@@ -5,7 +5,11 @@
 		[
 			[
 				"data",
-				"dataImage"
+				"dataUrl"
+			],
+			[
+				"st",
+				"storeImgArray"
 			],
 			[
 				"i",
@@ -30,10 +34,6 @@
 			[
 				"item",
 				"itemStorage"
-			],
-			[
-				"st",
-				"storageObject"
 			],
 			[
 				"img",
@@ -528,10 +528,18 @@
 			}
 		},
 		{
+			"file": "inject.js",
+			"settings":
+			{
+				"buffer_size": 2457,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "redirect.js",
 			"settings":
 			{
-				"buffer_size": 529,
+				"buffer_size": 409,
 				"line_ending": "Windows"
 			}
 		},
@@ -540,14 +548,6 @@
 			"settings":
 			{
 				"buffer_size": 928,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/H/Analytics-chrome-extension/analytics.js",
-			"settings":
-			{
-				"buffer_size": 4364,
 				"line_ending": "Windows"
 			}
 		}
@@ -612,12 +612,13 @@
 	},
 	"file_history":
 	[
+		"/H/offline-chrome-extension/.git/info/exclude",
+		"/H/Analytics-chrome-extension/analytics.js",
 		"/H/offline-chrome-extension/inject.js",
 		"/H/offline-chrome-extension/validator-min.js",
 		"/H/xampp/htdocs/xampp/projects/builder/test.html",
 		"/C/Users/Kanakiya/Desktop/blank.html",
 		"/H/offline-chrome-extension/test.html",
-		"/H/Analytics-chrome-extension/analytics.js",
 		"/C/Users/Kanakiya/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/H/offline-chrome-extension/redirect.html",
 		"/H/offline-chrome-extension/manifest.json",
@@ -738,8 +739,7 @@
 		"/H/jQuerin-grid-builder/builder/jquery.aSimpleTour.js",
 		"/H/imp-info/tosend.txt",
 		"/H/style.css",
-		"/H/test.html",
-		"/H/imp-info/Pan.txt"
+		"/H/test.html"
 	],
 	"find":
 	{
@@ -984,25 +984,53 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 450.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "redirect.js",
+					"file": "inject.js",
 					"settings":
 					{
-						"buffer_size": 529,
+						"buffer_size": 2457,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								492,
-								492
+								757,
+								757
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "redirect.js",
+					"settings":
+					{
+						"buffer_size": 409,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								372,
+								372
 							]
 						],
 						"settings":
@@ -1017,7 +1045,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "popup.js",
 					"settings":
 					{
@@ -1039,34 +1067,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 435.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/H/Analytics-chrome-extension/analytics.js",
-					"settings":
-					{
-						"buffer_size": 4364,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1821,
-								1863
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1530.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
