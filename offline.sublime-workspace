@@ -4,16 +4,28 @@
 		"selected_items":
 		[
 			[
+				"data",
+				"dataImage"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"the",
+				"theText"
+			],
+			[
+				"to",
+				"toString"
+			],
+			[
 				"sto",
 				"storeImgArray"
 			],
 			[
 				"con",
 				"content"
-			],
-			[
-				"the",
-				"theText"
 			],
 			[
 				"item",
@@ -30,10 +42,6 @@
 			[
 				"for",
 				"for	for (…) {…}"
-			],
-			[
-				"data",
-				"dataURL"
 			],
 			[
 				"da",
@@ -74,10 +82,6 @@
 			[
 				"ta",
 				"tabinfo"
-			],
-			[
-				"to",
-				"totalVisits"
 			],
 			[
 				"fo",
@@ -504,10 +508,6 @@
 				"windowcenterx"
 			],
 			[
-				"i",
-				"if	if"
-			],
-			[
 				"offs",
 				"offsetx"
 			],
@@ -523,15 +523,7 @@
 			"file": "manifest.json",
 			"settings":
 			{
-				"buffer_size": 800,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "inject.js",
-			"settings":
-			{
-				"buffer_size": 2174,
+				"buffer_size": 751,
 				"line_ending": "Windows"
 			}
 		},
@@ -620,12 +612,13 @@
 	},
 	"file_history":
 	[
+		"/H/offline-chrome-extension/inject.js",
+		"/H/offline-chrome-extension/validator-min.js",
 		"/H/xampp/htdocs/xampp/projects/builder/test.html",
 		"/C/Users/Kanakiya/Desktop/blank.html",
 		"/H/offline-chrome-extension/test.html",
 		"/H/Analytics-chrome-extension/analytics.js",
 		"/C/Users/Kanakiya/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/H/offline-chrome-extension/inject.js",
 		"/H/offline-chrome-extension/redirect.html",
 		"/H/offline-chrome-extension/manifest.json",
 		"/H/offline-chrome-extension/popup.js",
@@ -746,8 +739,7 @@
 		"/H/imp-info/tosend.txt",
 		"/H/style.css",
 		"/H/test.html",
-		"/H/imp-info/Pan.txt",
-		"/H/imp-info/jquery.in.txt"
+		"/H/imp-info/Pan.txt"
 	],
 	"find":
 	{
@@ -966,7 +958,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -974,15 +966,15 @@
 					"file": "manifest.json",
 					"settings":
 					{
-						"buffer_size": 800,
+						"buffer_size": 751,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								472,
-								472
+								606,
+								606
 							]
 						],
 						"settings":
@@ -992,39 +984,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 180.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "inject.js",
-					"settings":
-					{
-						"buffer_size": 2174,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1900,
-								1913
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1059.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "redirect.js",
 					"settings":
 					{
@@ -1041,7 +1007,8 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 9.0,
@@ -1050,7 +1017,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "popup.js",
 					"settings":
 					{
@@ -1078,7 +1045,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "/H/Analytics-chrome-extension/analytics.js",
 					"settings":
 					{

@@ -20,11 +20,11 @@
   "browser_action": {
     "default_icon": "icon.png",
     "default_popup": "popup.html",
-    "default_title":"Why isnt this working?"
+    "default_title":"Save your pages offline"
   },
   "minimum_chrome_version": "14.0.835.202",
   "permissions": [
-    "history","tabs","storage","topSites","unlimitedStorage","http://*/*", "https://*/*","webNavigation","management"
+    "tabs","storage","unlimitedStorage","http://*/*", "https://*/*"
   ]
 
 }
