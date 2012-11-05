@@ -32,18 +32,14 @@ jQuery(document).ready(function  ($) {
                     console.log(styleSheet);
                     deffered.resolve();
                 };
-            });
-        
+            });        
         };
-
-deffered.done(function  () {           
-
+deffered.done(function  () {
       theText = '<style'+' type="text/css">'+styleSheet+'</style>'+theText;
       var itemStorage = {
                   'html' : theText,
                   'img' : storeImgArray
-              };
-          
+              };          
       storageObject[url]=JSON.stringify(itemStorage);;//Mapping
   
        storage.set(storageObject, function() {
@@ -53,7 +49,11 @@ deffered.done(function  () {
       storage.get(url, function(items) {  
         //console.log(items);//Check whether stored
       });
+      saved();
 });
+function saved () {
+    $('body').append('<div id="offline-save-icon">Saved</div>');
+}
  function getBase64Image(img,number) {
                 // Create an empty canvas element
                 var canvas = document.createElement("canvas");
@@ -64,13 +64,6 @@ deffered.done(function  () {
                 // Copy the image contents to the canvas
                 var ctx = canvas.getContext("2d");
                 ctx.drawImage(img, 0, 0);
-
-
-                // Get the data-URL formatted image
-                // Firefox supports PNG and JPEG. You could check img.src to
-                // guess the original format, but be aware the using "image/jpg"
-                // will re-encode the image.
-
                 //To avoid cross-domain errors
                 try{
                     storeImgArray[i] = canvas.toDataURL("image/png");

@@ -1,0 +1,11 @@
+#offline-save-icon{
+	position: fixed;
+	top: 1em;
+	right: 1em;
+	padding: 0.5em;
+	background-color: green;
+	color: white;
+	z-index: 2000;
+	opacity: 0.4;
+	-webkit-border-radius:0.6em;
+}

@@ -2,12 +2,6 @@ var storage = chrome.storage.local;
 var theHtml;
 
 console.log('Working Offline');
-//var ghost = $(theHtml);
-  /*chrome.tabs.executeScript(injectDetails, function (){
-    console.log(theHtml);
-    console.log('Working');
-  });*/
-//Get the current url
 var queryobject = {
   'active' : true
 }
@@ -19,7 +13,6 @@ chrome.tabs.query(queryobject, function (tabArray){
   //Store the url in toAccessPage
   storage.set({'toAccessPage':url}, function() {
     // Notify that we saved.
-    console.log('saved the page');
     //Now objects to redirect page
     var thepath = chrome.extension.getURL('redirect.html');
     var updateProperties = {

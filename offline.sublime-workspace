@@ -4,20 +4,40 @@
 		"selected_items":
 		[
 			[
-				"data",
-				"dataUrl"
+				"sty",
+				"styleSheet"
+			],
+			[
+				"nu",
+				"numberOfStyles"
 			],
 			[
 				"st",
-				"storeImgArray"
+				"stylesheetArray"
+			],
+			[
+				"style",
+				"stylesheet"
 			],
 			[
 				"i",
-				"i"
+				"if	if"
+			],
+			[
+				"styl",
+				"styleSheet"
 			],
 			[
 				"the",
 				"theText"
+			],
+			[
+				"re",
+				"response"
+			],
+			[
+				"data",
+				"dataUrl"
 			],
 			[
 				"to",
@@ -308,10 +328,6 @@
 				"editInPlace"
 			],
 			[
-				"re",
-				"remove"
-			],
-			[
 				"inviews",
 				"inviewslide"
 			],
@@ -498,56 +514,19 @@
 			[
 				"x",
 				"x"
-			],
-			[
-				"wi",
-				"width"
-			],
-			[
-				"windowcen",
-				"windowcenterx"
-			],
-			[
-				"offs",
-				"offsetx"
-			],
-			[
-				"sc",
-				"scrollto"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "manifest.json",
+			"contents": "<h2 class=\"mainheader\" itemprop=\"headline\"></h2>\n\n\nCreated by <a href=\"\" title=\"\" itemprop=\"creator\"></a>\n\n<a href=\"\" title=\"Download Maximage-2 jquery plugin\">Download</a>\n<a href=\"\" title=\"Home of Maximage-2 jquery plugin \" itemprop=\"url\" target=\"_blank\">Home</a>\n<a href=\"\" title=\"Demo of Maximage-2 jquery plugin \" target=\"_blank\">Example</a>",
+			"file": "/C/Users/Kanakiya/Desktop/blank.html",
+			"file_size": 344,
+			"file_write_time": 129931174490807392,
 			"settings":
 			{
-				"buffer_size": 751,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "inject.js",
-			"settings":
-			{
-				"buffer_size": 2457,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "redirect.js",
-			"settings":
-			{
-				"buffer_size": 409,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "popup.js",
-			"settings":
-			{
-				"buffer_size": 928,
+				"buffer_size": 346,
 				"line_ending": "Windows"
 			}
 		}
@@ -612,18 +591,18 @@
 	},
 	"file_history":
 	[
+		"/H/offline-chrome-extension/popup.js",
+		"/H/offline-chrome-extension/inject.js",
+		"/H/offline-chrome-extension/redirect.js",
+		"/H/offline-chrome-extension/manifest.json",
+		"/H/offline-chrome-extension/redirect.html",
 		"/H/offline-chrome-extension/.git/info/exclude",
 		"/H/Analytics-chrome-extension/analytics.js",
-		"/H/offline-chrome-extension/inject.js",
 		"/H/offline-chrome-extension/validator-min.js",
 		"/H/xampp/htdocs/xampp/projects/builder/test.html",
 		"/C/Users/Kanakiya/Desktop/blank.html",
 		"/H/offline-chrome-extension/test.html",
 		"/C/Users/Kanakiya/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/H/offline-chrome-extension/redirect.html",
-		"/H/offline-chrome-extension/manifest.json",
-		"/H/offline-chrome-extension/popup.js",
-		"/H/offline-chrome-extension/redirect.js",
 		"/H/offline-chrome-extension/background.js",
 		"/C/Users/Kanakiya/Downloads/basic/manifest.json",
 		"/C/Users/Kanakiya/Downloads/basic/navigation_collector.js",
@@ -757,6 +736,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"Currencyr",
+			"Autotab",
 			"impressR",
 			"Autotab",
 			"<strong>",
@@ -882,9 +863,7 @@
 			"camera",
 			"document",
 			"rotate",
-			"refresh",
-			"slide",
-			"step"
+			"refresh"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -963,108 +942,23 @@
 			[
 				{
 					"buffer": 0,
-					"file": "manifest.json",
+					"file": "/C/Users/Kanakiya/Desktop/blank.html",
 					"settings":
 					{
-						"buffer_size": 751,
+						"buffer_size": 346,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								606,
-								606
+								0,
+								346
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 450.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "inject.js",
-					"settings":
-					{
-						"buffer_size": 2457,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								757,
-								757
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "redirect.js",
-					"settings":
-					{
-						"buffer_size": 409,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								372,
-								372
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 9.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "popup.js",
-					"settings":
-					{
-						"buffer_size": 928,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								913,
-								913
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
