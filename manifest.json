@@ -24,4 +24,5 @@
   "permissions": [
     "tabs","storage","unlimitedStorage","http://*/*", "https://*/*"
   ]
+
 }
