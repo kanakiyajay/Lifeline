@@ -21,9 +21,15 @@ jQuery(document).ready(function  ($) {
     var number = 0;
         //Get all the styles in text
         for (var i = 0; i < stylesheetArray.length; i++) {
-
+           try{
+              var stylesheet = $.get(href);
+            }
+            catch(error)
+            {
+              console.log(error);
+            }
             var href = $(stylesheetArray[i]).attr('href');
-            $.when($.get(href)).done(function(response) {
+            $.when(stylesheet).done(function(response) {
                 styleSheet = styleSheet + response.toString();
                 //$('<style />').text(response).appendTo($('head'));
                 //$('div').html(response);
