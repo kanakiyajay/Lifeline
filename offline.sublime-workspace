@@ -5,7 +5,15 @@
 		[
 			[
 				"sty",
-				"styleSheet"
+				"stylesheet"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"bac",
+				"background-origin"
 			],
 			[
 				"nu",
@@ -316,10 +324,6 @@
 				"hovered"
 			],
 			[
-				"bac",
-				"background"
-			],
-			[
 				"ad",
 				"addelement"
 			],
@@ -510,26 +514,11 @@
 			[
 				"in",
 				"innerHeight"
-			],
-			[
-				"x",
-				"x"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"contents": "<h2 class=\"mainheader\" itemprop=\"headline\"></h2>\n\n\nCreated by <a href=\"\" title=\"\" itemprop=\"creator\"></a>\n\n<a href=\"\" title=\"Download Maximage-2 jquery plugin\">Download</a>\n<a href=\"\" title=\"Home of Maximage-2 jquery plugin \" itemprop=\"url\" target=\"_blank\">Home</a>\n<a href=\"\" title=\"Demo of Maximage-2 jquery plugin \" target=\"_blank\">Example</a>",
-			"file": "/C/Users/Kanakiya/Desktop/blank.html",
-			"file_size": 344,
-			"file_write_time": 129931174490807392,
-			"settings":
-			{
-				"buffer_size": 346,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "Packages/User/C.sublime-build",
 	"command_palette":
@@ -592,22 +581,26 @@
 	"file_history":
 	[
 		"/H/offline-chrome-extension/popup.js",
-		"/H/offline-chrome-extension/inject.js",
-		"/H/offline-chrome-extension/redirect.js",
-		"/H/offline-chrome-extension/manifest.json",
 		"/H/offline-chrome-extension/redirect.html",
+		"/H/offline-chrome-extension/manifest.json",
+		"/H/offline-chrome-extension/extension.css",
+		"/H/offline-chrome-extension/inject.js",
+		"/C/Users/Kanakiya/Downloads/Untitled/Untitled.json",
+		"/C/Users/Kanakiya/Desktop/blank.html",
+		"/C/Users/Kanakiya/Downloads/VHDL/mux4.vhd",
+		"/H/offline-chrome-extension/redirect.js",
+		"/H/offline-chrome-extension.pem",
+		"/H/offline-chrome-extension/popup.html",
+		"/H/offline-chrome-extension/popup.css",
 		"/H/offline-chrome-extension/.git/info/exclude",
 		"/H/Analytics-chrome-extension/analytics.js",
 		"/H/offline-chrome-extension/validator-min.js",
 		"/H/xampp/htdocs/xampp/projects/builder/test.html",
-		"/C/Users/Kanakiya/Desktop/blank.html",
 		"/H/offline-chrome-extension/test.html",
 		"/C/Users/Kanakiya/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/H/offline-chrome-extension/background.js",
 		"/C/Users/Kanakiya/Downloads/basic/manifest.json",
 		"/C/Users/Kanakiya/Downloads/basic/navigation_collector.js",
-		"/H/offline-chrome-extension/popup.html",
-		"/H/offline-chrome-extension/popup.css",
 		"/H/offline-chrome-extension/timer/manifest.json",
 		"/H/offline-chrome-extension/timer/popup.js",
 		"/H/offline-chrome-extension/timer/page.js",
@@ -617,7 +610,6 @@
 		"/H/Chrome-Extensions-examples/contentSettings/popup.js",
 		"/H/offline-chrome-extension/stylizr/popup.js",
 		"/H/Analytics-chrome-extension/inject.js",
-		"/H/offline-chrome-extension/extension.css",
 		"/H/Chrome-Extensions-examples/make_page_red/manifest.json",
 		"/H/Analytics-chrome-extension/manifest.json",
 		"/H/offline-chrome-extension",
@@ -715,10 +707,7 @@
 		"/H/jQuerin-grid-builder/builder/index.html",
 		"/H/jQuerin-grid-builder/builder/builder.css",
 		"/H/jQuerin-grid-builder/buildertest.html",
-		"/H/jQuerin-grid-builder/builder/jquery.aSimpleTour.js",
-		"/H/imp-info/tosend.txt",
-		"/H/style.css",
-		"/H/test.html"
+		"/H/jQuerin-grid-builder/builder/jquery.aSimpleTour.js"
 	],
 	"find":
 	{
@@ -736,6 +725,11 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"</code",
+			"strong",
+			"Autotab",
+			"stylesheet",
+			"Maximage-2",
 			"Currencyr",
 			"Autotab",
 			"impressR",
@@ -858,12 +852,7 @@
 			"refresh",
 			"stepwra",
 			"gridster",
-			"5",
-			"$element",
-			"camera",
-			"document",
-			"rotate",
-			"refresh"
+			"5"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -937,35 +926,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/C/Users/Kanakiya/Desktop/blank.html",
-					"settings":
-					{
-						"buffer_size": 346,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								346
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
