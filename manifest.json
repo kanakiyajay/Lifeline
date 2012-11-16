@@ -1,8 +1,8 @@
 {
-  "name": "The Pure Offline Chrome Extension",
+  "name": "Lifeline",
   "version": "1.0",
   "manifest_version": 2,
-  "description": "Offline Usage of Web-pages",
+  "description": "Save all web-pages for offline-use",
   "icons": { 
       "16": "icon.png",
       "48": "icon48.png",

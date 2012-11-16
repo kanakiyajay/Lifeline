@@ -1,7 +1,15 @@
 jQuery(document).ready(function  ($) {  
     var url = window.location.href;//get the url of the page
     var storage = chrome.storage.local;//Cache
+    var check = $.Deferred();
+     storage.get(url, function(items) {  
+        if (url!==null) {
+            check.resolve();
+        };
+      });
     //console.log('Inject Script Working');
+    check.done(function  () {
+      
     var storageObject = {};
     //Store the html text
     var styleSheet ;
@@ -29,7 +37,7 @@ jQuery(document).ready(function  ($) {
                 //$('div').html(response);
                 number = number+1;
                 if (numberOfStyles===number) {
-                    console.log(styleSheet);
+                    //console.log(styleSheet);
                     deffered.resolve();
                 };
             });        
@@ -46,11 +54,10 @@ deffered.done(function  () {
           // Notify that we saved.
           console.log('saved the page');
         });
-      storage.get(url, function(items) {  
-        //console.log(items);//Check whether stored
-      });
+     
       saved();
 });
+    });
 function saved () {
     $('body').append('<div id="offline-save-icon">Saved</div>');
 }

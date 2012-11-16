@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"style",
+				"style"
+			],
+			[
 				"sty",
 				"stylesheet"
 			],
@@ -22,10 +26,6 @@
 			[
 				"st",
 				"stylesheetArray"
-			],
-			[
-				"style",
-				"stylesheet"
 			],
 			[
 				"i",
@@ -519,6 +519,25 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "inject.js",
+			"settings":
+			{
+				"buffer_size": 3161,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<h2 class=\"mainheader\" itemprop=\"headline\"></h2>\n\n\nCreated by <a href=\"\" title=\"\" itemprop=\"creator\"></a>\n\n<a href=\"\" title=\"Download TextFit jquery plugin\">Download</a>\n<a href=\"\" title=\"Home of TextFit jquery plugin \" itemprop=\"url\" target=\"_blank\">Home</a>\n<a href=\"\" title=\"Demo of TextFit jquery plugin \" target=\"_blank\">Example</a>",
+			"file": "/C/Users/Kanakiya/Desktop/blank.html",
+			"file_size": 344,
+			"file_write_time": 129931174490807392,
+			"settings":
+			{
+				"buffer_size": 337,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "Packages/User/C.sublime-build",
 	"command_palette":
@@ -580,11 +599,12 @@
 	},
 	"file_history":
 	[
+		"/H/melange/remotehost/wp-content/themes/twentytwelve/frontenddevwiki/README.md",
 		"/H/offline-chrome-extension/popup.js",
-		"/H/offline-chrome-extension/redirect.html",
-		"/H/offline-chrome-extension/manifest.json",
-		"/H/offline-chrome-extension/extension.css",
 		"/H/offline-chrome-extension/inject.js",
+		"/H/offline-chrome-extension/manifest.json",
+		"/H/offline-chrome-extension/redirect.html",
+		"/H/offline-chrome-extension/extension.css",
 		"/C/Users/Kanakiya/Downloads/Untitled/Untitled.json",
 		"/C/Users/Kanakiya/Desktop/blank.html",
 		"/C/Users/Kanakiya/Downloads/VHDL/mux4.vhd",
@@ -706,8 +726,7 @@
 		"/H/jQuerin-grid-builder/readme.md",
 		"/H/jQuerin-grid-builder/builder/index.html",
 		"/H/jQuerin-grid-builder/builder/builder.css",
-		"/H/jQuerin-grid-builder/buildertest.html",
-		"/H/jQuerin-grid-builder/builder/jquery.aSimpleTour.js"
+		"/H/jQuerin-grid-builder/buildertest.html"
 	],
 	"find":
 	{
@@ -725,6 +744,18 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"textFit",
+			"//",
+			"Complexify",
+			"Volley",
+			"jPanelMenu",
+			"Autotab",
+			"table",
+			"NFC tag",
+			"•",
+			"ps",
+			"scale",
+			"console",
 			"</code",
 			"strong",
 			"Autotab",
@@ -840,19 +871,7 @@
 			"data-sizex",
 			"<",
 			"hallo",
-			"addslide",
-			"hallo",
-			"blue",
-			"onsole",
-			"maxnumber",
-			"next",
-			"button",
-			"slidetoolbox",
-			"rotate",
-			"refresh",
-			"stepwra",
-			"gridster",
-			"5"
+			"addslide"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -926,8 +945,63 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "inject.js",
+					"settings":
+					{
+						"buffer_size": 3161,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2153,
+								2153
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1350.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Kanakiya/Desktop/blank.html",
+					"settings":
+					{
+						"buffer_size": 337,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								337
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
