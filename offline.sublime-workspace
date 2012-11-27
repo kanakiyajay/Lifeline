@@ -528,14 +528,23 @@
 			}
 		},
 		{
-			"contents": "<h2 class=\"mainheader\" itemprop=\"headline\"></h2>\n\n\nCreated by <a href=\"\" title=\"\" itemprop=\"creator\"></a>\n\n<a href=\"\" title=\"Download TextFit jquery plugin\">Download</a>\n<a href=\"\" title=\"Home of TextFit jquery plugin \" itemprop=\"url\" target=\"_blank\">Home</a>\n<a href=\"\" title=\"Demo of TextFit jquery plugin \" target=\"_blank\">Example</a>",
+			"contents": "<h2 class=\"mainheader\" itemprop=\"headline\"></h2>\n\n\nCreated by <a href=\"\" title=\"\" itemprop=\"creator\"></a>\n\n<a href=\"\" title=\"Download selectList jquery plugin\">Download</a>\n<a href=\"\" title=\"Home of selectList jquery plugin \" itemprop=\"url\" target=\"_blank\">Home</a>\n<a href=\"\" title=\"Demo of selectList jquery plugin \" target=\"_blank\">Example</a>",
 			"file": "/C/Users/Kanakiya/Desktop/blank.html",
-			"file_size": 344,
-			"file_write_time": 129931174490807392,
+			"file_size": 350,
+			"file_write_time": 129982332995367720,
 			"settings":
 			{
-				"buffer_size": 337,
+				"buffer_size": 346,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<li>Supports custom animations/effects.</li>\n <li>Supports CSS styling.</li>\n <li>Lightweight — the packed version is just over 3KB.</li>\nThe plugin works in all major browsers, including Firefox 2+, Opera 9.5+, Google Chrome, Safari 3+, and Internet Explorer 6+.\n\nExample Usage :-\n\n<code>$('select#languages').selectList({ sort: true });</code>",
+			"settings":
+			{
+				"buffer_size": 345,
+				"line_ending": "Windows",
+				"name": "<li>Supports custom animations/effects.</li>"
 			}
 		}
 	],
@@ -744,6 +753,12 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"Long Press",
+			"jHere",
+			"SlickSwitch",
+			"( ) { }",
+			"ayaSlider",
+			"TextFit",
 			"textFit",
 			"//",
 			"Complexify",
@@ -865,13 +880,7 @@
 			"<div class=\"gridster\">\n			        <ul>\n			            <li data-row=\"1\" data-col=\"1\" data-sizex=\"5\" data-sizey=\"1\">\n			                <h1 class=\"editable\">Double Click To Add Heading</h1>\n			            </li>\n			            <li data-row=\"2\" data-col=\"1\" data-sizex=\"5\" data-sizey=\"2\">\n			                <h3 class=\"editable\">Double Click To Text</h3>\n			            </li>\n			        </ul>\n			    </div>",
 			"gridster",
 			"data-sizex",
-			"halfbutton",
-			"half",
-			"2",
-			"data-sizex",
-			"<",
-			"hallo",
-			"addslide"
+			"halfbutton"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -945,7 +954,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -960,8 +969,8 @@
 						"selection":
 						[
 							[
-								2153,
-								2153
+								178,
+								149
 							]
 						],
 						"settings":
@@ -971,7 +980,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1350.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -981,7 +990,7 @@
 					"file": "/C/Users/Kanakiya/Desktop/blank.html",
 					"settings":
 					{
-						"buffer_size": 337,
+						"buffer_size": 346,
 						"regions":
 						{
 						},
@@ -989,12 +998,38 @@
 						[
 							[
 								0,
-								337
+								346
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"settings":
+					{
+						"buffer_size": 345,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								137,
+								137
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<li>Supports custom animations/effects.</li>",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
